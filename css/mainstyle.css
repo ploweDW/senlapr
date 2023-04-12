@@ -1,0 +1,145 @@
+body {
+    background-image: url(../img/taking_notes.png); 
+    background-position-x: center; 
+    background-position-y: 210px;
+    background-repeat: no-repeat; 
+   }
+
+   button[name="Important"] { 
+    border: none;
+    border-radius: 50px;
+    padding: 7px 6px;
+    background: #27AE60;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+   }
+
+   button[name="Important"]:hover { 
+   background: #014e18;
+   }
+
+   textarea[name="reviewtext"] 
+   {
+   padding: 36px 170px;
+   background: #ffffff;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: white;
+   }
+
+   button[name="Add"] { 
+   border: none;
+   border-radius: 0px;
+   padding: 7px 40px;
+   background: #0c5dc7;
+   cursor: pointer;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: white;
+   position: relative;
+   left: 401px;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   }
+
+   button[name="Add"]:hover {
+   background: #170daa;
+   }
+
+
+
+   img[name="Delete"]{
+   position: relative;
+   left: 5px;
+   right: 0px;
+   top: 11px;
+   bottom: 0px;
+   }
+
+   .layer1r{
+    background-color: white;
+   position: relative;
+   left: 0px;
+   right: 0px;
+   top: 11px;
+   bottom: 0px;
+   border-radius: 5px;
+   }
+
+   .layer1r:hover {
+   background: #dad9d99c;
+   filter: drop-shadow(0px 6px 20px rgba(47, 128, 237, 0.75));
+   }
+
+   .layer2r{   
+    background-color: white;
+   position: relative;
+   left: 0px;
+   right: 0px;
+   top: 11px;
+   bottom: 0px;
+   border-radius: 5px;
+   }
+
+   .layer2r:hover {
+   background: #dad9d99c;
+   filter: drop-shadow(0px 6px 20px rgba(47, 128, 237, 0.75));
+   }
+
+   .layer3r{  
+    background-color: white;
+   position: relative;
+   left: 0px;
+   right: 0px;
+   top: 11px;
+   bottom: 0px;
+   border-radius: 5px;
+   }
+
+   .layer3r:hover {
+   background: #dad9d99c;
+   filter: drop-shadow(0px 6px 20px rgba(47, 128, 237, 0.75));
+   }
+   
+
+   .layer4r{    
+    background-color: white;
+   position: relative;
+   left: 0px;
+   right: 0px;
+   top: 11px;
+   bottom: 0px;
+   border-radius: 5px;
+   }
+
+   .layer4r:hover {
+   background: #dad9d99c;
+   filter: drop-shadow(0px 6px 20px rgba(47, 128, 237, 0.75));
+   }
+   
+    .search{
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    button[name="searchbtn"] { 
+        position: absolute;
+        left: 180px;
+
+    }
+
+    .newtask{
+        display: block;
+        margin-block-start: 300px;
+        margin-block-end: 300px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
